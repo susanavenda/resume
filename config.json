@@ -1,9 +1,7 @@
 {
-  "sideNav": {
-    "about": "About",
-    "experience": "Experience",
-    "education": "Education",
-    "skills": "Skills",
-    "awards": "Awards"
-  }
+  "about": "About",
+  "experience": "Experience",
+  "education": "Education",
+  "skills": "Skills",
+  "awards": "Awards"
 }
