@@ -1,4 +1,3 @@
 {
-    "name": "John",
-    "last_name": "Doe"
+  "replace_text": "New text to replace with"
 }
