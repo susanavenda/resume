@@ -20,6 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                 <p>Hello, [replace_this]!</p>
                 <span class="d-block d-lg-none">Susana Venda</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.jpg" alt="..." /></span>
             </a>
@@ -221,18 +222,22 @@
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
         <!-- Read labels-->
-        <script>
-            $(function(){
-            $.ajax({
-                url:'config.json',
-                type:'GET',
-                success:function(data){
-                    var tmpData = JSON.parse(JSON.stringify(data));
-                    $("#name").val(tmpData.name);
-                    $("#last_name").val(tmpData.last_name);
-        }
-        });
-        });
-        </script>
+      <script>
+    $(document).ready(function() {
+      $('#fileInput').on('change', function(e) {
+        var file = e.target.files[0];
+        var reader = new FileReader();
+
+        reader.onload = function(event) {
+          var fileContent = event.target.result;
+          var parsedContent = JSON.parse(fileContent);
+          var replacedContent = $('#content').html().replace('[replace_this]', parsedContent.replace_text);
+          $('#content').html(replacedContent);
+        };
+
+        reader.readAsText(file);
+      });
+    });
+  </script>
     </body>
 </html>
