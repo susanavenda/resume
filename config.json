@@ -1,7 +1,9 @@
 {
-  "labels": {
-    "label1": "Replacement for label 1",
-    "label2": "Replacement for label 2",
-    "label3": "Replacement for label 3"
+  "sideNav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "awards": "Awards"
   }
 }
