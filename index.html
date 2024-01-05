@@ -221,22 +221,23 @@
         <script src="scripts.js"></script>
         <!-- Read labels-->
  <script>
-    $(document).ready(function() {
-      $.getJSON('config.json', function(data) {
-        try {
-          Object.keys(data).forEach(function(key) {
-            var element = $('#' + key);
-            if (element.length > 0) {
-              element.text(data[key]);
-            }
-          });
-        } catch (error) {
-          console.error('Error:', error);
+ $(document).ready(function() {
+  $.getJSON('labels.json', function(data) {
+    try {
+      Object.keys(data).forEach(function(key) {
+        var element = $('#' + key);
+        if (element.length > 0) {
+          element.text(data[key]);
         }
-      }).fail(function(jqxhr, textStatus, error) {
-        console.error('Request Failed:', textStatus, error);
       });
-    });
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }).fail(function(jqxhr, textStatus, error) {
+    console.error('Request Failed:', textStatus, error);
+  });
+});
+
   </script>
     </body>
 </html>
