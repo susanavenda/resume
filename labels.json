@@ -1,7 +1,7 @@
 {
-  "about": "About",
-  "experience": "Experience",
-  "education": "Education",
-  "skills": "Skills",
-  "awards": "Awards"
+  "aboutLabel": "About",
+  "experienceLabel": "Experience",
+  "educationLabel": "Education",
+  "skillsLabel": "Skills",
+  "awardsLabel": "Awards"
 }
