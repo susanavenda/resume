@@ -11,6 +11,7 @@
   "aboutMe": "I am an IT and Business Consultant with technical and consultancy skills. I am comfortable with taking my own initiative, but also enjoy working in a group environment. I am dedicated to maintain quality standards.",
   "jobTitle": "List Management Screening - Software Developer",
   "duration": "Sep 2020 — Present - La Hulpe",
-  "responsibilitiesHTML": "<ul><li>Development of List Management Screening</li><li>Management of lists (first step of Screening process)</li><li>DevOps - automation of release process from dev to live</li><li>Dockerization of LMS application</li><li>Migration to Spring 5 and Spring Boot 2</li></ul>"
+  "responsibilitiesHTML": "<ul><li>Development of List Management Screening</li><li>Management of lists (first step of Screening process)</li><li>DevOps - automation of release process from dev to live</li><li>Dockerization of LMS application</li><li>Migration to Spring 5 and Spring Boot 2</li></ul>",
+  "company": "SWIFT"
 }
   
