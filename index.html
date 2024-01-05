@@ -222,20 +222,15 @@
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
         <!-- Read labels-->
-      <script>
+   <script>
     $(document).ready(function() {
-      $('#fileInput').on('change', function(e) {
-        var file = e.target.files[0];
-        var reader = new FileReader();
-
-        reader.onload = function(event) {
-          var fileContent = event.target.result;
-          var parsedContent = JSON.parse(fileContent);
-          var replacedContent = $('#content').html().replace('[replace_this]', parsedContent.replace_text);
-          $('#content').html(replacedContent);
-        };
-
-        reader.readAsText(file);
+      // Fetch JSON file from the repository
+      $.getJSON('config.json', function(data) {
+        // Replace placeholder text with JSON content
+        var replacedContent = $('#content').html().replace('[replace_this]', data.replace_text);
+        $('#content').html(replacedContent);
+      }).fail(function() {
+        $('#content').text('Failed to load JSON file.');
       });
     });
   </script>
