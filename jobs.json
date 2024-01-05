@@ -1,0 +1,24 @@
+[
+    {
+        "jobTitle": "List Management Screening - Software Developer",
+        "company": "Your Company",
+        "duration": "Sep 2020 — Present",
+        "responsibilities": [
+            "Development of List Management Screening",
+            "Management of lists (first step of Screening process)",
+            "DevOps - automation of release process from dev to live",
+            "Dockerization of LMS application",
+            "Migration to Spring 5 and Spring Boot 2"
+        ]
+    },
+    {
+        "jobTitle": "Another Job Title",
+        "company": "Another Company",
+        "duration": "Jan 2019 — Aug 2020",
+        "responsibilities": [
+            "Responsibility 1",
+            "Responsibility 2",
+            "Responsibility 3"
+        ]
+    }
+]
