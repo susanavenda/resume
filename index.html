@@ -220,14 +220,14 @@
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
         <!-- Read labels-->
-  <script>
+ <script>
     $(document).ready(function() {
       $.getJSON('config.json', function(data) {
         try {
-          Object.keys(data.sideNav).forEach(function(key) {
+          Object.keys(data).forEach(function(key) {
             var element = $('#' + key);
             if (element.length > 0) {
-              element.text(data.labels[key]);
+              element.text(data[key]);
             }
           });
         } catch (error) {
