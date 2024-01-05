@@ -229,7 +229,7 @@
         <!-- Read labels-->
   <script>
     $(document).ready(function() {
-      $.getJSON('labels.json', function(data) {
+      $.getJSON('config.json', function(data) {
         try {
           Object.keys(data.labels).forEach(function(key) {
             var element = $('#' + key);
