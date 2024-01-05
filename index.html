@@ -59,6 +59,8 @@
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
+                    <div id="jobsList"></div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" id=jobTitle>[jobTitle]</h3>
@@ -239,5 +241,41 @@
 });
 
   </script>
+
+        <script>
+    // Function to create job elements dynamically
+    function createJobElement(job) {
+        const jobElement = document.createElement("div");
+        jobElement.classList.add("d-flex", "flex-column", "flex-md-row", "justify-content-between", "mb-5");
+        jobElement.innerHTML = `
+            <div class="flex-grow-1">
+                <h3 class="mb-0">${job.jobTitle}</h3>
+                <div class="subheading mb-3">${job.company}</div>
+                <ul>
+                    ${job.responsibilities.map(responsibility => `<li>${responsibility}</li>`).join("")}
+                </ul>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">${job.duration}</span></div>
+        `;
+        return jobElement;
+    }
+
+    // Get the container to append job elements
+    const jobsContainer = document.getElementById('jobsList');
+
+    // Fetch the JSON file
+    fetch('jobs.json')
+        .then(response => response.json())
+        .then(jobs => {
+            // Create job elements and append to the container
+            jobs.forEach(job => {
+                const jobElement = createJobElement(job);
+                jobsContainer.appendChild(jobElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+</script>
     </body>
 </html>
