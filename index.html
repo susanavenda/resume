@@ -227,7 +227,7 @@
                 url:'config.json',
                 type:'GET',
                 success:function(data){
-                    var tmpData = JSON.parse(data);
+                    var tmpData = JSON.stringify(products);
                     $("#name").val(tmpData.name);
                     $("#last_name").val(tmpData.last_name);
         }
