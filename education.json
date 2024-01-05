@@ -1,0 +1,22 @@
+{
+    "education": [
+        {
+            "degree": "Master in Computer Science and Management",
+            "university": "ISCTE - Instituto Universitário de Lisboa",
+            "duration": "Sep 2011 — Jun 2013",
+            "details": [
+                "Superior Institute of Business and Labour Sciences, Lisbon",
+                "Published paper: 'The social network SASGnose and its appropriateness to the objectives of the academic program of the SAS'",
+                "CISTI 2014 - 9a Conferência Ibérica de Sistemas e Tecnologias de Informação, Barcelona, Spain",
+                "ISBN: 978-989-98434-3-1",
+                "Authors: Susana Venda, Bráulio Alturas, Alberto Carneiro",
+                "Published on Vol.II, p.150-151"
+            ]
+        },
+        {
+            "degree": "Bachelor in Computer Science and Management",
+            "university": "ISCTE - Instituto Universitário de Lisboa",
+            "duration": "Sep 2007 — Jun 2011"
+        }
+    ]
+}
