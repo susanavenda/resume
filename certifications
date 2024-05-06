@@ -1,16 +1,15 @@
-{
-  "certifications": [
-    {
-      "name": "Certified Scrum Product Owner",
-      "issuer": "Scrum Alliance"
-    },
-    {
-      "name": "OpenShift Training",
-      "issuer": "RedHat"
-    },
-    {
-      "name": "ICA Certificate in Sanction Screening",
-      "issuer": "International Compliance Association"
-    }
-  ]
-}
+[
+  {
+    "name": "Certified Scrum Product Owner",
+    "issuer": "Scrum Alliance"
+  },
+  {
+    "name": "OpenShift Training",
+    "issuer": "RedHat"
+  },
+  {
+    "name": "ICA Certificate in Sanction Screening",
+    "issuer": "International Compliance Association"
+  }
+]
+
