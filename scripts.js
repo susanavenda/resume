@@ -107,8 +107,10 @@ function createObjectFromFile(file, elementId) {
         });
 }
 
-   createObjectFromFile('jobs.json', 'jobsList') ;
+ createObjectFromFile('jobs.json', 'jobsList') ;
  createObjectFromFile('education.json', 'educationList') ;
+ createObjectFromFile('techskills.json', 'techskills') ;
+ createObjectFromFile('certifications.json', 'certifications') ;
   
 
  
