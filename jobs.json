@@ -1,41 +1,27 @@
 [
     {
         "jobTitle": "List Management Screening - Software Developer",
-        "company": "Your Company",
-        "duration": "Sep 2020 — Present",
+        "company": "SWIFT - La Hulpe",
+        "duration": "Sep 2020 — Jul 2022",
         "responsibilities": [
-            "Led the development of List Management Screening from inception to execution",
-            "Managed the initial phase of the Screening process, overseeing lists and data",
-            "Implemented DevOps practices, automating the release process from development to live environments",
-            "Executed Dockerization of the LMS (List Management Screening) application",
+            "Prioritized efficient list management in the initial phase of the screening process, incorporating an evolutionary approach to maintenance while integrating new features",
+            "Utilized OpenShift and CloudBees to Dockerize and implement DevOps practices, automating the release process from development to live environments, enhancing overall efficiency in 80%",
             "Orchestrated migration to Spring 5 and Spring Boot 2, enhancing the application's efficiency and scalability",
-            "Technologies: Java 1.8, Maven, Cloudbees, JUnit, JPA, Spring Boot, Spring, REST, HTTP, SQL (Oracle), MVC, IntelliJ, Jira, Confluence, Git, Docker, Groovy"
+            "Technologies: Java 1.8, Maven, Cloudbees, Openshift, JUnit, JPA, Spring Boot, Spring, REST, HTTP, SQL (Oracle), MVC, IntelliJ, Jira, Confluence, Git, Docker, Groovy"
         ]
     },
     {
         "jobTitle": "Transaction Screening - Software Developer",
-        "company": "Your Company",
+        "company": "SWIFT - La Hulpe",
         "duration": "Sep 2019 — Sep 2020",
         "responsibilities": [
             "Contributed to the development of Transaction Screening, focusing on filtering transactions against lists",
-            "Utilized Java 1.8, Maven, Jenkins, JUnit, JPA, Spring Boot, Spring, REST, HTTP, SQL (Oracle), MVC, IntelliJ, Jira, Confluence, Git, Docker for seamless project execution"
-        ]
-    },
-      {
-        "jobTitle": "Extract Project - Tech Lead Full Stack",
-        "company": "Your Company",
-        "duration": "Jun 2017 — Jun 2018",
-        "responsibilities": [
-            "Led the development of the Extract web application",
-            "Executed data migration processes",
-            "Constructed comprehensive reports using Spring Batch",
-            "Location: Brussels - NBB",
-            "Technologies: Java 1.8, Maven, Bamboo, JUnit, JPA, Spring, REST, HTTP, SQL (Oracle and SQLServer), MVC, IntelliJ, Jira, Confluence, SVN"
+            "Utilized Java 1.8, Maven, Jenkins, JUnit, JPA, Spring Boot, Spring, REST, HTTP, SQL (Oracle), MVC, IntelliJ, Jira, Confluence, Git, Docker, Ansible, Angular"
         ]
     },
     {
         "jobTitle": "Casper Project - Tech Lead Front-End",
-        "company": "Your Company",
+        "company": "NBB - Brussels",
         "duration": "Jun 2018 — Nov 2018",
         "responsibilities": [
             "Architected the project following bank best practices",
@@ -45,36 +31,43 @@
         ]
     },
     {
+        "jobTitle": "Extract Project - Tech Lead Full Stack",
+        "company": "NBB - Brussels",
+        "duration": "Jun 2017 — Jun 2018",
+        "responsibilities": [
+            "Led the development and technical solution process of the Extract web application",
+            "Executed data migration processes, constructed comprehensive reports using Spring Batch",
+            "Technologies: Java 1.8, Maven, Bamboo, JUnit, JPA, Spring, REST, HTTP, SQL (Oracle and SQLServer), MVC, IntelliJ, Jira, Confluence, SVN"
+        ]
+    },
+    {
         "jobTitle": "SOA Improvement Project - Middleware Developer",
-        "company": "Your Company",
+        "company": "DLL - Brussels",
         "duration": "Dec 2016 — Jun 2017",
         "responsibilities": [
-            "Contributed to various internal projects and the SOA improvement plan",
-            "Developed in Oracle Service Bus",
-            "Automated test CI and CD processes",
-            "Executed SOA improvement using Scrum and Agile methodologies",
-            "Location: Brussels - DLL",
-            "Worked on the ELK proof of concept",
+            "Played a key role in advancing internal projects and the SOA improvement plan",
+            "Developed functionalities in Oracle Service Bus, enhancing system performance",
+            "Automated test processes through CI/CD pipelines for efficiency and quality assurance",
+            "Executed SOA improvement using Scrum and Agile methodologies, accelerating project timelines",
+            "Led the ELK proof of concept, enabling better insights and decision-making",
             "Technologies: Oracle Service Bus, Jenkins, SoapUi, SOA, WSDL, XSD, WebLogic, ELK"
         ]
     },
      {
         "jobTitle": "Payment Automatisation Project - Integration Developer",
-        "company": "Your Company",
+        "company": "BDP- Brussels",
         "duration": "Dec 2015 — Dec 2016",
         "responsibilities": [
-            "Performed business analyses for the T2S project",
-            "Developed internal APIs and utilized Talend",
-            "Conducted unit tests using Talend",
-            "Worked on integration components in Java",
-            "Executed the first Talend project company-wide + ELK",
-            "Location: Brussels - BDP",
+            "Conducted business analyses for T2S project",
+            "Developed internal APIs using Talend and unit tests with Talend",
+            "Created integration components in Java",
+            "Led first company-wide Talend project + ELK implementation",
             "Technologies: ELK, Talend, Java, Spring Batch, SQL Server, internal framework (XML), REST, JMS"
         ]
     },
     {
         "jobTitle": "Product and Catalog Project - Front-end Developer",
-        "company": "Lisbon - Vodafone",
+        "company": "Vodafone - Lisbon",
         "duration": "Aug 2015 — Dec 2015",
         "responsibilities": [
             "Developed SOA and multi-tier architecture web applications",
@@ -84,7 +77,7 @@
     },
     {
         "jobTitle": "Academic Supporter - Front-end Developer",
-        "company": "Lisbon - Vodafone",
+        "company": "Vodafone - Lisbon",
         "duration": "May 2015 — Aug 2015",
         "responsibilities": [
             "Developed a prototype web application",
@@ -95,7 +88,7 @@
     },
     {
         "jobTitle": "AT2 - Integration Developer",
-        "company": "Your Company",
+        "company": "SIBS - Lisbon",
         "duration": "Nov 2014 — May 2015",
         "responsibilities": [
             "Performed functional and technical analyses for the project",
@@ -105,11 +98,10 @@
     },
     {
         "jobTitle": "ARTIC - Back-end Developer",
-        "company": "Lisbon - SIBS",
+        "company": "SIBS - Lisbon",
         "duration": "Nov 2013 — Nov 2014",
         "responsibilities": [
-            "Led the full implementation of a new architecture for a card processing platform",
-            "Worked with a team that followed industry best practices",
+            "I was part of a full implementation of a new architecture for a card processing platform",
             "Gained a comprehensive understanding of business rules",
             "Used Scrum methodology, peer programming, and conducted end-to-end testing",
             "Challenges included implementing end-to-end transactions",
